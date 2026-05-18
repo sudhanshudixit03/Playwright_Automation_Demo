@@ -1,0 +1,43 @@
+
+TEST CASE 1 — VALID LOGIN
+
+Verify that user can login successfully with valid credentials.
+
+Test Steps:
+1. Open https://www.saucedemo.com
+2. Enter username: standard_user
+3. Enter password: secret_sauce
+4. Click Login button
+
+Expected Result:
+- User should navigate to Products page
+- Products page title should be visible
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

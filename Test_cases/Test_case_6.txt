@@ -1,0 +1,11 @@
+TEST CASE 6 — VERIFY PRODUCT SORTING LOW TO HIGH
+
+Verify products are sorted by price from low to high.
+
+Test Steps:
+1. Login with valid credentials
+2. Click sorting dropdown
+3. Select "Price (low to high)"
+
+Expected Result:
+- Products should display in ascending price order

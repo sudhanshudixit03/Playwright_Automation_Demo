@@ -1,0 +1,11 @@
+TEST CASE 9 — VERIFY LOGOUT FUNCTIONALITY
+
+Verify user can logout successfully.
+
+Test Steps:
+1. Login with valid credentials
+2. Open side menu
+3. Click Logout button
+
+Expected Result:
+- User should redirect to login page

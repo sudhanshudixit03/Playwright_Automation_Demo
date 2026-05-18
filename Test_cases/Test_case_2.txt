@@ -1,0 +1,13 @@
+TEST CASE 2 — INVALID LOGIN
+
+Verify error message appears for invalid credentials..
+
+Test Steps:
+1. Open https://www.saucedemo.com
+2. Enter invalid username
+3. Enter invalid password
+4. Click Login button
+
+Expected Result:
+- Error message should appear
+- User should remain on login page

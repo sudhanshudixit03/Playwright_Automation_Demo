@@ -1,0 +1,11 @@
+TEST CASE 10 — VERIFY PRODUCT DETAILS PAGE
+
+Verify product details page opens correctly.
+
+Test Steps:
+1. Login with valid credentials
+2. Click any product name
+
+Expected Result:
+- Product details page should open
+- Correct product information should display

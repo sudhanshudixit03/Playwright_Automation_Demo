@@ -1,0 +1,18 @@
+TEST CASE 7 — VERIFY CHECKOUT PROCESS
+
+Verify user can complete checkout successfully.
+
+Test Steps:
+1. Login with valid credentials
+2. Add product to cart
+3. Open cart page
+4. Click Checkout
+5. Enter First Name
+6. Enter Last Name
+7. Enter Zip Code
+8. Click Continue
+9. Click Finish
+
+Expected Result:
+- Order confirmation message should appear
+- Checkout should complete successfully

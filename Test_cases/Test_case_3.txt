@@ -1,0 +1,13 @@
+TEST CASE 3 — ADD SINGLE PRODUCT TO CART
+
+Verify user can add one product to cart successfully.
+
+Test Steps:
+1. Login with valid credentials
+2. Click "Add to cart" for any product
+3. Open cart page
+
+Expected Result:
+- Product should be visible in cart
+- Cart badge count should display 1
+
