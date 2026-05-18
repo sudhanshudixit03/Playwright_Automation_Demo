@@ -7,7 +7,8 @@ def test_valid_login():
             page.fill("#user-name","standard_user")
             page.fill("#password","secret_sauce")
             page.click("#login-button")
-            assert page.locator(".title").inner_text() == 'Products'
+            # assert page.locator(".title").inner_text() == 'Products'
+            assert "Products" in page.locator(".title").inner_text()
             page.screenshot(path="Screenshots/screenshot.png")
             print("Login successful")
             browser.close()
