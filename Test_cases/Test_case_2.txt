@@ -9,5 +9,5 @@ Test Steps:
 4. Click Login button
 
 Expected Result:
-- Error message should appear
+- Error message should appear------"Epic sadface: Username and password do not match any user in this service"
 - User should remain on login page

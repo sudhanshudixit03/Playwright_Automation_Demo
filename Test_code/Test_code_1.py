@@ -11,3 +11,7 @@ def test_valid_login():
             page.screenshot(path="Screenshots/screenshot.png")
             print("Login successful")
             browser.close()
+
+
+
+
