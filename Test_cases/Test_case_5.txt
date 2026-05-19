@@ -10,4 +10,4 @@ Test Steps:
 
 Expected Result:
 - Product should be removed from cart
-- Cart badge count should update
+- Cart badge "count" should blank/not cart count

@@ -7,7 +7,7 @@ Test Steps:
 2. Click "Add to cart" for any product
 3. Open cart page
 
-Expected Result:
-- Product should be visible in cart
-- Cart badge count should display 1
+Expected Result:                                        #Product- list:
+- Product should be visible in cart             #sauce-labs-backpack ,sauce-labs-bike-light,
+- Cart badge count should display 1             # sauce-labs-bolt-t-shirt,sauce-labs-fleece-jacket,sauce-labs-onesie,
 

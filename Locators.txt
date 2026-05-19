@@ -1,0 +1,14 @@
+# Consolidated locators used in Test_code/*.py
+
+# Login locators
+#user-name
+#password
+#login-button
+
+# Page/Assertions
+.title
+h3
+
+# Cart locators
+#add-to-cart-sauce-labs-backpack
+#shopping_cart_container

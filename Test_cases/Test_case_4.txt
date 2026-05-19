@@ -7,6 +7,6 @@ Test Steps:
 2. Add 3 products to cart
 3. Open cart page
 
-Expected Result:
-- All selected products should be visible
-- Cart badge count should match added products
+Expected Result:                                                     #Product- list:
+- All selected products should be visible                           #sauce-labs-backpack ,sauce-labs-bike-light,
+- Cart badge count should match added products                      # sauce-labs-bolt-t-shirt,sauce-labs-fleece-jacket,sauce-labs-onesie,
