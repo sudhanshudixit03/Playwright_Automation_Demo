@@ -5,7 +5,7 @@ Verify products are sorted by price from low to high.
 Test Steps:
 1. Login with valid credentials
 2. Click sorting dropdown
-3. Select "Price (low to high)"
+3. Select "Price (low to high)"                 #Price examples : ['$7.99', '$9.99', '$15.99']
 
 Expected Result:
 - Products should display in ascending price order
