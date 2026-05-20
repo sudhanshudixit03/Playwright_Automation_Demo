@@ -6,12 +6,12 @@ Test Steps:
 1. Login with valid credentials
 2. Add product to cart
 3. Open cart page
-4. Click Checkout
+4. Click checkout button
 5. Enter First Name
 6. Enter Last Name
-7. Enter Zip Code
-8. Click Continue
-9. Click Finish
+7. Enter postal-code
+8. Click Continue checkout
+9. Click Finish checkout           #Thank you for your order!
 
 Expected Result:
 - Order confirmation message should appear
