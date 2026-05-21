@@ -8,5 +8,7 @@ Test Steps:
 3. Attempt checkout process
 
 Expected Result:
-- System should handle empty cart properly
-- No invalid order should be created
+- System should handle empty cart properly and fail checkout process with appropriate message.(Checkout page not opened)
+- No invalid order should be created.
+-If SauceDemo allows checkout even with empty cart then it is a "bug" in the application.
+This helps identify actual business behavior and possible functional gaps..
