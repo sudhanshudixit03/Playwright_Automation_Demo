@@ -28,7 +28,7 @@ def test_empty_cart():
         current_url = page.url
 
         # Validation
-        assert "checkout-step-two" in current_url, "Checkout page not opened"    #"checkout-step-two" means it will try to open the checkout page(current_url)
+        assert "checkout-step-two" in current_url, "Checkout page not opened" #"checkout-step-two" means it will try to open the checkout page(current_url)
                                                                                 # but it should not open because there is no product in the cart
 
         # Screenshot
