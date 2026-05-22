@@ -1,14 +1,43 @@
 # Consolidated locators used in Test_code/*.py
 
 # Login locators
-#user-name
-#password
-#login-button
+# #user-name                 - Username input field on login page
+# #password                  - Password input field on login page
+# #login-button              - Login button
 
-# Page/Assertions
-.title
-h3
+# Page / Assertions
+# .title                    - Inventory page title element (visible text: "Products")
+# h3                        - Error banner/headline used for login error messages (e.g., "Epic sadface")
+# .complete-header          - Order completion heading on the success page ("Thank you for your order!")
 
-# Cart locators
-#add-to-cart-sauce-labs-backpack
-#shopping_cart_container
+# Product / Inventory
+# #item_4_title_link        - Link (ID) to open the Sauce Labs Backpack product details
+# .inventory_details_name   - Product title on the product details page
+# .inventory_item_price     - Price element for each product on the products list
+# .product_sort_container   - Sorting dropdown on the inventory page (used with select_option)
+
+# Cart / Cart actions
+# #add-to-cart-sauce-labs-backpack     - Add "Sauce Labs Backpack" to cart
+# #add-to-cart-sauce-labs-bike-light   - Add "Sauce Labs Bike Light" to cart
+# #add-to-cart-sauce-labs-bolt-t-shirt - Add "Sauce Labs Bolt T-Shirt" to cart
+# #add-to-cart-sauce-labs-fleece-jacket- Add "Sauce Labs Fleece Jacket" to cart
+# #add-to-cart-sauce-labs-onesie       - Add "Sauce Labs Onesie" to cart
+# .shopping_cart_link       - Header cart icon/link that opens the cart page
+# #shopping_cart_container  - Cart badge container (used to read item count text)
+# .shopping_cart_badge      - Small numeric badge element that shows number of items in cart
+# #remove-sauce-labs-backpack - Remove button for the backpack item on the cart page
+
+# Checkout flow
+# #checkout                - Checkout button on the cart page
+# #first-name              - First name input on checkout information page
+# #last-name               - Last name input on checkout information page
+# #postal-code             - Postal / ZIP code input on checkout information page
+# #continue                - Continue button on checkout information page
+# #finish                  - Finish button to complete the order
+
+# Menu / Logout
+# #react-burger-menu-btn   - Hamburger (side) menu button (opens sidebar)
+# #logout_sidebar_link    - Logout link inside the sidebar menu
+
+# Notes:
+# -(CSS id selectors with leading '#', class selectors with leading '.').

@@ -1,0 +1,36 @@
+# CSS Selectors used in Test_code files:
+
+# 1) #user-name
+# Description: Username input field on the Sauce Demo login page.
+# Used in: Valid_login.py, Invalid_login.py, Add_single_cart.py
+# Example: page.fill("#user-name", "standard_user")
+
+# 2) #password
+# Description: Password input field on the Sauce Demo login page.
+# Example: page.fill("#password", "secret_sauce")
+
+# 3) #login-button
+# Description: The login button on the Sauce Demo login form.
+# Used in: Valid_login.py, Invalid_login.py, Add_single_cart.py
+# Example: page.click("#login-button")
+
+# 4) .title
+# Description: Page header element that shows the current page title (e.g., "Products").
+# Used in: Valid_login.py
+# Example: page.locator(".title").inner_text()  # assert that it contains "Products"
+
+# 5) h3
+# Description: Generic h3 tag used on the page to display error messages (e.g., login failure).
+# Used in: Invalid_login.py
+# Example: page.locator("h3").inner_text()  # contains "Epic sadface"
+
+# 6) #add-to-cart-sauce-labs-backpack
+# Description: "Add to cart" button for the Sauce Labs Backpack product.
+# Used in: Add_single_cart.py
+# Example: page.click("#add-to-cart-sauce-labs-backpack")
+
+# 7) #shopping_cart_container
+# Description: The shopping cart container/icon that displays the number of items in the cart.
+# Used in: Add_single_cart.py
+# Example: page.locator("#shopping_cart_container").inner_text()  # expected "1" after adding an item
+
