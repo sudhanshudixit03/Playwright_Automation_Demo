@@ -4,7 +4,9 @@ Verify product details page opens correctly.
 
 Test Steps:
 1. Login with valid credentials
-2. Click any product name
+2. Click any product name(Sauce Labs Backpack)
+3. Verify that the product details page opens
+4. Verify that the correct product information is displayed (e.g., product name, price)
 
 Expected Result:
 - Product details page should open
