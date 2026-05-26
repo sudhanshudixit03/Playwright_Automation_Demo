@@ -22,5 +22,5 @@ def test_add_more_product_cart():
         #validation
         assert page.locator("#shopping_cart_container").inner_text() == "4"
 
-        page .screenshot(path="Screenshots/screenshot3.png")
+        page .screenshot(path="Screenshots/Multiple_product.png")
         browser.close()

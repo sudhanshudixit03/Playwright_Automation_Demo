@@ -9,7 +9,7 @@ def test_valid_login():
             page.click("#login-button")
             # assert page.locator(".title").inner_text() == 'Products'
             assert "Products" in page.locator(".title").inner_text()
-            page.screenshot(path="Screenshots/screenshot.png")
+            page.screenshot(path="Screenshots/login.png")
             print("Login successful")
             browser.close()
 
