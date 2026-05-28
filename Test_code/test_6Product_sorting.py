@@ -3,13 +3,9 @@ from playwright.sync_api import sync_playwright
 def test_product_sorting():
 
     with sync_playwright() as P:
-
         browser = P.chromium.launch(headless=False)
-
         page = browser.new_page()
-
         page.goto("https://www.saucedemo.com")
-
         # Login
         page.fill("#user-name", "standard_user")
         page.fill("#password", "secret_sauce")
@@ -23,16 +19,11 @@ def test_product_sorting():
         prices = page.locator(".inventory_item_price").all_inner_texts()            # all_inner_texts() captures visible text from
                                                                                  # all matched elements and stores them into list format.
                                                                                     # example output = ['$29.99', '$9.99', '$15.99']
-
-
-        # Empty list to store cleaned prices
+         # Empty list to store cleaned prices
         actual_prices = []
-
 
         # FOR Loop iterates through each product-price one by one.
         for price in prices:
-
-
             # Remove dollar symbol and convert string to float
             cleaned_price = float(price.replace("$", ""))               # output eg = 7.99
 

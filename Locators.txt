@@ -19,9 +19,6 @@
 # Cart / Cart actions
 # #add-to-cart-sauce-labs-backpack     - Add "Sauce Labs Backpack" to cart
 # #add-to-cart-sauce-labs-bike-light   - Add "Sauce Labs Bike Light" to cart
-# #add-to-cart-sauce-labs-bolt-t-shirt - Add "Sauce Labs Bolt T-Shirt" to cart
-# #add-to-cart-sauce-labs-fleece-jacket- Add "Sauce Labs Fleece Jacket" to cart
-# #add-to-cart-sauce-labs-onesie       - Add "Sauce Labs Onesie" to cart
 # .shopping_cart_link       - Header cart icon/link that opens the cart page
 # #shopping_cart_container  - Cart badge container (used to read item count text)
 # .shopping_cart_badge      - Small numeric badge element that shows number of items in cart

@@ -22,8 +22,6 @@ def test_product_sorting():
         #enter first and last name
         page.fill("#first-name","SUDHANSHU")
         page.fill("#last-name","DIXIT")
-
-        #Enter zip code
         page.fill("#postal-code","209801")
 
         #click continue
