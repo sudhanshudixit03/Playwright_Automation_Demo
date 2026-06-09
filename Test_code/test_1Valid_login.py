@@ -7,7 +7,6 @@ def test_valid_login():
 
 
 
-
             page.goto("https://www.saucedemo.com/")             #1st step
             page.fill("#user-name","standard_user")     #instead of css selectors we can also "use get_by_label"
             page.fill("#password","secret_sauce")
