@@ -15,5 +15,5 @@ def test_valid_login():
             browser.close()
 
 
-
+#We can write the css selector by #terms (ID) , .text-info(Class name) , tagname
 
